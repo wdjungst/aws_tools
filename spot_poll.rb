@@ -27,7 +27,7 @@ end
 
 def notify (current_price)
   puts "price $ #{current_price} is greater than max bid $#{@max_bid}"
-  `echo price $#{current_price} | mail -s Spot Price exceeding $#{@max_bid} #{CONFIG['email']`
+  `echo price $#{current_price} | mail -s Spot Price exceeding $#{@max_bid} #{CONFIG['email']}`
 end
 
 def update_max_bid
