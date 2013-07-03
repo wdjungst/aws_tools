@@ -1,0 +1,4 @@
+access_key_id: 'AWS ACCESS KEY ID'
+secret_access_key: 'AWS SECRET ACCESS KEY'
+region: 'default-region'
+email: 'e-mail to notify'
